@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RegistrationForm.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form>
+        <div class="form-box">
+		<li>First name: <input type="text" name="firstname"><br></li>
+		<li>Last name: <input type="text" name="lastname"><br></li>
+        <li>Email: <input type="email" name="email"> <br></li>
+        <li>Password: <input type="password" minlength="5" name="password"><br></li>
+        <li>Birthday: <input type="date" name="birthday"><br></li>
+        <li>Gender:
+            <input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female
+            <input type="radio" name="Gender">Other<br>	</li>
+        <li>Pets:
+            <input type="checkbox" name="cat"> Cats
+            <input type="checkbox" name="dog"> Dogs<br></li>
+		<li>Cars
+            <select>
+                <option value="Lambergini" name="lanmergini">Lambergini</option>
+                <option value="Bugati" name="bugati">Bugati</option>
+            </select><br></li>
+		<input type="submit" value="Register">
+		<input type="Reset">
+       </div>
+	</form>
+</body>
+</html>
